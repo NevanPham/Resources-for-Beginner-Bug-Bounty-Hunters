@@ -19,7 +19,12 @@ Understanding these concepts will provide a solid foundation for your bug bounty
 In order to be able to learn what and how an application works, you need to be able to understand how you are communicating with it. This section is dedicated to all the resources to understand the HTTP basics.
 - [All in one resource](https://www.hacker101.com/sessions/web_in_depth)
 	- HTTP basics
-   - Cookie security
+   - Cookie security:
+      - Subdomain can set cookies for its child or parents, but cannot do that for sibling
+      - Two flags
+         - secure: cookie will only be accessible to https pages
+         - httponly: cookie cannot be read by javascript (sent with web request)
+
    - HTML parsing
    - MIME sniffing
    - Encoding sniffing
