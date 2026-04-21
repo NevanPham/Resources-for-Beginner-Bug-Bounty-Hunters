@@ -24,7 +24,6 @@ In order to be able to learn what and how an application works, you need to be a
       - Two flags
          - secure: cookie will only be accessible to https pages
          - httponly: cookie cannot be read by javascript (sent with web request)
-
    - HTML parsing
    - MIME sniffing
    - Encoding sniffing
